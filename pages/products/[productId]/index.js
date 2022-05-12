@@ -2,10 +2,10 @@ import { useRouter } from "next/router";
 
 const ProductDetail = () => {
     const router = useRouter();
-    const { id } = router.query;
+    const { productId } = router.query;
 
     return (
-        <h1>Details of the product with id: {id}</h1>
+        <h1>Details of the product with id: {productId}</h1>
     )
 }
 
