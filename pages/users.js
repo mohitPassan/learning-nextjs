@@ -1,7 +1,7 @@
 const UsersPage = ({ users }) => {
     return (
         <>
-            <h1>This is the users' list:</h1>
+            <h1>This is the users list:</h1>
             <ul>
                 {
                     users.map(user => (
