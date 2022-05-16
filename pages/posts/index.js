@@ -7,7 +7,7 @@ const PostsList = ({ posts }) => {
             <ul>
                 {
                     posts.map(post => (
-                        <Link href={`posts/${post.id}`}>
+                        <Link href={`/posts/${post.id}`} key={post.id}>
                             <a>
                                 <li key={post.id}>
                                     {post.id} {post.title}
@@ -29,7 +29,7 @@ export const getStaticProps = async () => {
 
     return {
         props: {
-            posts: data.slice(0, 5)
+            posts: data
         }
     }
 }
