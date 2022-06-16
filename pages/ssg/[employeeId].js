@@ -39,6 +39,8 @@ export const getStaticProps = async (context) => {
         props: {
             employee,
         },
+        // Revalidating the data after every 30 minutes.
+        revalidate: 108000
     };
 };
 
