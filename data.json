@@ -1,0 +1,34 @@
+{
+    "employees": [
+        {
+            "id": "1",
+            "name": "John",
+            "age": 30,
+            "position": "CEO"
+        },
+        {
+            "id": "2",
+            "name": "Pete",
+            "age": 35,
+            "position": "Developer"
+        },
+        {
+            "id": "3",
+            "name": "Mary",
+            "age": 27,
+            "position": "HR"
+        },
+        {
+            "id": "4",
+            "name": "Sara",
+            "age": 22,
+            "position": "Developer"
+        },
+        {
+            "id": "5",
+            "name": "Mohit",
+            "age": 25,
+            "position": "COO"
+        }
+    ]
+}
