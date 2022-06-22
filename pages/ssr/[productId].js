@@ -1,16 +1,22 @@
 import axios from "axios";
+import Head from "next/head";
 
 const ProductData = ({ product }) => {
     return (
-        <div>
-            <h1>
-                {product.id}: {product.name}
-            </h1>
-            <p>{product.price}</p>
-            <p>
-                <i>{product.description}</i>
-            </p>
-        </div>
+        <>
+            <Head>
+                <title>{product.id}: {product.name}</title>
+            </Head>
+            <div>
+                <h1>
+                    {product.id}: {product.name}
+                </h1>
+                <p>{product.price}</p>
+                <p>
+                    <i>{product.description}</i>
+                </p>
+            </div>
+        </>
     );
 };
 
